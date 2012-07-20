@@ -24,14 +24,14 @@ Your program should take 1 parameter as input, a list (array) where each item is
 * shipping country of participant (string)
 * willing to ship internationally (boolean)
 
-Example: [[234, ‘US’, True], [235, ‘US’, False],]
+Example: `[[234, ‘US’, True], [235, ‘US’, False],]`
 
 Your program should return a list (array) where each element is a 2 item list (array) containing:
 
 * Unique id of participant giving the gift
 * Unique id of participant receiving the gift
 
-Example: [[234, 235], [235, 234],]
+Example: `[[234, 235], [235, 234],]`
 
 Your solution should be representative of how you program. You should be able to explain the program and understand its strengths and weaknesses. You may write this program in any language you’d like to, but it needs to be executable (no pseudo code please).
 
@@ -103,9 +103,9 @@ In a serious development environment, I'd start by writing a factory for sample 
 
 In this case, you can approximate the testing process by running the following code:
 
->>> import match
->>> participants = match._fake_data_set()
->>> match.match(participants)
+    >>> import match
+    >>> participants = match._fake_data_set()
+    >>> match.match(participants)
 
 The result should show four distinct 'loops' that aren't too hard to find:
 
