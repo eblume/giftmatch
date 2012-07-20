@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """match.py
-Copyright Erich Blume 2012 <blume.erich@gmail.com>
+by Erich Blume 2012 <blume.erich@gmail.com>
 This source is hereby placed in the public domain.
 
 Implements one function, `match`. Also implements a Participant class describing the minimal
