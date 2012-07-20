@@ -1,7 +1,7 @@
 # Redditgifts Matchmaking Problem #
 
 Solution by Erich Blume <blume.erich@gmail.com>
-Hereby licensed without restriction to the redditgifts team, part of the reddit.com social empire.
+This source is hereby licensed to the public domain.
 
 ## Problem Statement ##
 

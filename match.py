@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """match.py
 Copyright Erich Blume 2012 <blume.erich@gmail.com>
-All rights granted to the redditgifts team for the use of this code at their discression.
+This source is hereby placed in the public domain.
 
 Implements one function, `match`. Also implements a Participant class describing the minimal
 necessary representation for the algorithm to run.
@@ -76,7 +76,7 @@ class __Sifter:
 
 def match(participants):
   """List of participants -> list of tuples of participants, indicating their matches."""
-  
+
   # See README.md for the explanation. Some documentation will be inline.
 
   ### Step 1: Create basic partition sets.
